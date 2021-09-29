@@ -1,0 +1,79 @@
+.contact-box {
+    background-color: #434445;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+
+.c-heading h6{
+    font-family: 'Times New Roman', Times, serif;
+    color: #e7eef3;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
+.c-inputs {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-inputs input{
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(251,251,251,0.1);
+    outline: none;
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #f4f4f4;
+    display: flex;
+}
+
+.c-inputs textarea{
+    width: 250px !important;
+    height: 200px !important;
+    outline: none;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(82,82,82,1);
+    color: #f4f4f4;
+    padding: 10px;
+    font: 1.2rem;
+    box-sizing: border-box;
+}
+
+.c-inputs button{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+}
+
+.c-inputs input:focus{
+    border-bottom: 1px solid rgba(252,252,252,1.00);
+    transition: all ease 0.5s;
+}
+
+.c-inputs textarea:focus{
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,1.00);
+    transition: all ease 0.5s;
+}
+
+.c-inputs button:active{
+    transform: scale(1.02);
+}
